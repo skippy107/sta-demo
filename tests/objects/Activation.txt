@@ -1,0 +1,19 @@
+﻿*** Settings ***
+
+Documentation     Defines all resources and keywords 
+...               handling the Activation object
+...
+...  
+
+*** Variables ***
+
+*** Keywords ***
+
+Begin
+    # Click Element    name
+    Fail    Keyword 'Begin' not implemented
+
+Enter Reason
+    Fail    Keyword 'Enter Reason' not implemented
+
+
