@@ -66,24 +66,11 @@ GoTo
     Wait Until Keyword Succeeds    5x    2s    Title Should Be    ${App.PageTitle}
 
 Login
-    Return from Keyword
-    Wait Until Element Is Visible    id=username
-    Input Text     id=username    ${TEST_ID}
-
-    Wait Until Element Is Visible    id=password
-    Input Text     id=password    ${TEST_PW}
-
-    Click Element    id=Login
+    No Operation
+    Log    Keyword 'App.Logout' not implemented in ${SUITE}  WARN
 
 Logout
-    Return from Keyword
-    Selenium Library.Go To    ${App.Url}
-    Sleep    2s
-    #Wait Until Element Is Visible    xpath://li[contains(@class,"slds-global-actions__item")][last()]
-    Click Element    xpath://li[contains(@class,"slds-global-actions__item")][last()]
-    Sleep    2s
-    #Wait Until Element Is Visible    xpath://a[contains(@class,"logout")]
-    Click Element    xpath://a[contains(@class,"logout")]
-    Sleep    5s
+    No Operation
+    Log    Keyword 'App.Logout' not implemented in ${SUITE}  WARN
 
 

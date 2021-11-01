@@ -11,9 +11,11 @@ Documentation     Defines all resources and keywords
 
 Begin
     # Click Element    name
-    Fail    Keyword 'Begin' not implemented
+    No Operation
+    Log    Keyword 'Activation.Begin' not implemented in ${SUITE}   WARN
 
 Enter Reason
-    Fail    Keyword 'Enter Reason' not implemented
+    No Operation
+    Log     Keyword 'Activation.Enter Reason' not implemented in ${SUITE}   WARN
 
 
