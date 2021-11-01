@@ -12,10 +12,10 @@ Documentation     Defines all resources and keywords
 Begin
     # Click Element    name
     No Operation
-    Log    Keyword 'Activation.Begin' not implemented in ${SUITE}   WARN
+    Log    Keyword 'Activation.Begin' not implemented in ${SUITE_NAME}   WARN
 
 Enter Reason
     No Operation
-    Log     Keyword 'Activation.Enter Reason' not implemented in ${SUITE}   WARN
+    Log     Keyword 'Activation.Enter Reason' not implemented in ${SUITE_NAME}   WARN
 
 

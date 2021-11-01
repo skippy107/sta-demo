@@ -67,10 +67,10 @@ GoTo
 
 Login
     No Operation
-    Log    Keyword 'App.Logout' not implemented in ${SUITE}  WARN
+    Log    Keyword 'App.Logout' not implemented in ${SUITE_NAME}  WARN
 
 Logout
     No Operation
-    Log    Keyword 'App.Logout' not implemented in ${SUITE}  WARN
+    Log    Keyword 'App.Logout' not implemented in ${SUITE_NAME}  WARN
 
 
