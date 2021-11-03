@@ -1,7 +1,7 @@
 *** Settings ***
 
-Resource    ../objects/App.txt
-Resource    ../objects/Activation.txt
+Resource    ../objects/App.resource
+Resource    ../objects/Activation.resource
 
 
 Documentation    Import file for functional CCR Tests 

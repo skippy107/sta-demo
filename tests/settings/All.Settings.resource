@@ -4,8 +4,8 @@ Documentation     Custom Variables for the ${SUITE NAME} tests
 ...
 ...
 
-Resource          profiles/${Profile}.txt
-Resource          env/${ENV}.txt
+Resource          profiles/${Profile}.resource
+Resource          env/${ENV}.resource
 
 *** Variables ***
 #

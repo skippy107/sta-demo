@@ -46,3 +46,4 @@ Test Launch
     Set Selenium Implicit Wait    10
     Open Browser    http://cossincalc.com    ${Selenium.Browser.Name}
     Maximize Browser Window
+

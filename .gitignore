@@ -1,9 +1,10 @@
 # Ignore everything
 /*
 /*/
+
+# But not these files...
 !.gitignore
 !Jenkinsfile
 !/tests/
-
-# But not these files...
+!/projects/
 

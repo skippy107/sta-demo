@@ -1,7 +1,7 @@
 *** Settings ***
 
-Resource    settings/All.Settings.txt                 #  suite specific variables defined here
-Resource    imports/example.imports.txt                #  imports the required objects 
+Resource    settings/All.Settings.resource                 #  suite specific variables defined here
+Resource    imports/example.imports.resource                #  imports the required objects 
 
 
 Test Teardown    Test Cleanup

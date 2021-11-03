@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.9.5 on win32)" generated="20211103 09:42:58.233" rpa="false" schemaversion="2">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\miket\.vscode\extensions\robocorp.robotframework-lsp-0.27.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Activate New Patient">
+<msg timestamp="20211103 09:42:59.512" level="FAIL">No keyword with name 'Activate New Patient' found.</msg>
+<status status="FAIL" starttime="20211103 09:42:59.512" endtime="20211103 09:42:59.512"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>hello world</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211103 09:44:44.443" endtime="20211103 09:44:44.444"/>
+</kw>
+<kw name="exit">
+<msg timestamp="20211103 09:45:04.758" level="FAIL">No keyword with name 'exit' found.</msg>
+<status status="FAIL" starttime="20211103 09:45:04.758" endtime="20211103 09:45:04.758"/>
+</kw>
+<kw name="quit">
+<msg timestamp="20211103 09:45:07.204" level="FAIL">No keyword with name 'quit' found.</msg>
+<status status="FAIL" starttime="20211103 09:45:07.204" endtime="20211103 09:45:07.204"/>
+</kw>
+<status status="PASS" starttime="20211103 09:42:58.265" endtime="20211103 09:45:30.576"/>
+</kw>
+<status status="PASS" starttime="20211103 09:42:58.265" endtime="20211103 09:45:30.576"/>
+</test>
+<status status="PASS" starttime="20211103 09:42:58.234" endtime="20211103 09:45:30.582"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
