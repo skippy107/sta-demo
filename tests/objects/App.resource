@@ -74,7 +74,7 @@ GoTo
 Login
     [Documentation]  Login to the application using the web browser
     No Operation
-    Log    Keyword 'App.Logout' not implemented in ${SUITE_NAME}  WARN
+    Log    Keyword 'App.Login' not implemented in ${SUITE_NAME}  WARN
 
 Logout
     [Documentation]  Logout of the application using the web browser
