@@ -1,4 +1,4 @@
-﻿*** Settings ***
+*** Settings ***
 
 Resource          ../adapters/SeleniumLibrary.txt
 Library           OperatingSystem
